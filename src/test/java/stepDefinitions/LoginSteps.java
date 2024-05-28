@@ -1,5 +1,4 @@
 package stepDefinitions;
-
 import io.cucumber.java.en.*;
 import org.junit.Assert;
 import pages.LoginPage;
@@ -15,7 +14,7 @@ public class LoginSteps {
 
     @When("I enter a valid username and password")
     public void i_enter_a_valid_username_and_password() {
-        loginPage.usernameInput.sendKeys("admin@codewise.com");
+        loginPage.usernameInput.sendKeys("Emir_77777@mail.ru");
         loginPage.passwordInput.sendKeys("codewise123");
     }
 
