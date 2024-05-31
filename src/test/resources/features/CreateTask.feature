@@ -12,5 +12,4 @@ Feature: Create Task Functionality
     And I provide task name
     And I provide task description
     And I click on calendar button
-    And I click deadline data
     And I push on create button

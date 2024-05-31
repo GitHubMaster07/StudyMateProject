@@ -28,12 +28,12 @@ public class CreateTaskSteps {
     }
     @Then("I click on calendar button")
     public void i_click_on_calendar_button() {
-        createTaskPage.calendarButton.click();
+        createTaskPage.calendarButton.sendKeys("1312");
     }
-    @Then("I click deadline data")
-    public void i_click_deadline_data() {
-        createTaskPage.chooseDay.click();
-    }
+//    @Then("I click deadline data")
+//    public void i_click_deadline_data() {
+//        createTaskPage.chooseDay.click();
+//    }
 
 @Then("I push on create button")
     public void i_push_on_create_button() {createTaskPage.createButton.click();

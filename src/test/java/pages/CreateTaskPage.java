@@ -24,7 +24,7 @@ public class CreateTaskPage {
     @FindBy(xpath = "//div[@class='editor-input']")
     public WebElement taskDescription;
 
-    @FindBy(xpath = "//button[@class='MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd MuiIconButton-sizeMedium css-slyssw']")
+    @FindBy(xpath = "//input[@name='deadline']")
     public WebElement calendarButton;
 
     @FindBy(xpath = "//button[text()='29']")
