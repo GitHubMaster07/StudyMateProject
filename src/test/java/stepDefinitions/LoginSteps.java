@@ -1,5 +1,4 @@
 package stepDefinitions;
-
 import io.cucumber.java.en.*;
 import org.junit.Assert;
 import pages.LoginPage;
