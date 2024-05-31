@@ -8,9 +8,7 @@ import utilities.Driver;
 public class PresentationPage {
     public PresentationPage() {
         PageFactory.initElements(Driver.getDriver(),this);}
-    @FindBy(css = "a[href='/instructor/courses']")
-    public WebElement myCourses;
-    @FindBy(className = "sc-hlzHbZ exYlyu")
+    @FindBy(xpath = "sc-gBInCZ eiMpEs")
     public WebElement course;
     @FindBy(xpath = "//p[text()='Unit Test Group#2']")
     public WebElement lesson;
@@ -27,4 +25,6 @@ public class PresentationPage {
     @FindBy (css = "button[type='submit']")
     public WebElement add;
 
+    @FindBy (className = "sc-ciEjBl jzJmVO")
+    public WebElement verifyPresentation;
 }
